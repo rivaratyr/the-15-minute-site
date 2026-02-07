@@ -1,0 +1,52 @@
+{
+  "2026-02-07": {
+    "0:00": {
+      "category": "UPKEEP",
+      "subcategory": "SLEEP",
+      "color": "#FFFFFF",
+      "text": "SLEEP"
+    },
+    "0:15": {
+      "category": "UPKEEP",
+      "subcategory": "SLEEP",
+      "color": "#FFFFFF",
+      "text": "SLEEP"
+    },
+    "8:00": {
+      "category": "UPKEEP",
+      "subcategory": "BREAKFAST",
+      "color": "#FFFFFF",
+      "text": "BREAKFAST"
+    },
+    "9:00": {
+      "category": "WORK",
+      "subcategory": "WORK",
+      "color": "#D4E157",
+      "text": "WORK"
+    },
+    "12:30": {
+      "category": "UPKEEP",
+      "subcategory": "LUNCH",
+      "color": "#FFFFFF",
+      "text": "LUNCH"
+    },
+    "15:45": {
+      "category": "NOT_PRODUCTIVE",
+      "subcategory": "DOOMSCROLLING",
+      "color": "#EF5350",
+      "text": "DOOMSCROLLING"
+    },
+    "18:00": {
+      "category": "BUSINESS_RELATED",
+      "subcategory": "NETWORKING",
+      "color": "#F9A825",
+      "text": "NETWORKING"
+    },
+    "22:30": {
+      "category": "UPKEEP",
+      "subcategory": "SLEEP",
+      "color": "#FFFFFF",
+      "text": "SLEEP"
+    }
+  }
+}
