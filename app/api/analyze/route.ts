@@ -43,7 +43,10 @@ function extractActivities(body: AnalyzeRequestBody | Record<string, unknown>): 
 }
 
 export async function POST(request: Request) {
-    try {
+
+    return NextResponse.json({ status: 'error', response: 'Internal Server Error' }, { status: 500 });
+
+    /* try {
         const apiKey = process.env.API_KEY;
         const authHeader = request.headers.get('authorization') || '';
         const token = authHeader.startsWith('Bearer ') ? authHeader.slice('Bearer '.length).trim() : '';
@@ -67,5 +70,5 @@ export async function POST(request: Request) {
     } catch (error) {
         const message = error instanceof Error ? error.message : 'Unknown error';
         return NextResponse.json({ status: 'error', response: message }, { status: 500 });
-    }
+    } */
 }
