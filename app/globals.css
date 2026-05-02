@@ -17,7 +17,3 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), sans-serif;
 }
-
-a {
-  color: #F54F1B;
-}
